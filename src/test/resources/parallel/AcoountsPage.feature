@@ -2,7 +2,7 @@ Feature: Accounts Page Feature
 
   Background: user has already logged into application
     Given user is on login page
-    When as an authorised logs-in correctly
+    When authorised user logs-in correctly
     Then authorised user can access his account
 
   Scenario: Accounts page validation

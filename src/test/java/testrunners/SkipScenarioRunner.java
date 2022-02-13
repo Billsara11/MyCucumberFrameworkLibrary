@@ -25,4 +25,5 @@ public class SkipScenarioRunner extends AbstractTestNGCucumberTests {
 }
 
 // if we want skip any scenario with maven console test we can use
-// this command -->
+// this command --> mvn test -DCucumber.options="--tags '@Login and not @Skip'"
+// with this command test include @Login tags but @Skip tags
