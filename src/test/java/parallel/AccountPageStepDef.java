@@ -1,8 +1,11 @@
 package parallel;
 
 
+
 import com.pages.AccountPage;
+
 import com.qa.factory.DriverFactory;
+
 import com.qa.util.ConfigReader;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
