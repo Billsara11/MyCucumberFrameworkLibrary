@@ -11,7 +11,7 @@ Feature: Login Page Feature
     Given user is on login page
     When authorised user logs-in correctly
     Then authorised user can access his account
-  @Skip
+  @Skip @Skip_scenario
   Scenario: Login with uncorrected credentials
     Given user is on login page
     When unauthorised user logs-in incorrectly
