@@ -1,11 +1,13 @@
 package com.pages;
 
+import com.qa.util.BrowserUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
 
     private WebDriver driver;
+    BrowserUtils myBrowserUtils = new BrowserUtils();
 
     //By locators: OR(Object Repository)
     private By emailID= By.id("email");
@@ -32,12 +34,14 @@ public class LoginPage {
     }
 
     public void enterUserName(String username) {
-        driver.findElement(emailID).sendKeys(username);
+        myBrowserUtils.mySendKeysMethod(emailID, username);
+        //driver.findElement(emailID).sendKeys(username);
 
     }
 
     public void enterPassword(String pwd) {
-        driver.findElement(password).sendKeys(pwd);
+        myBrowserUtils.mySendKeysMethod(password, pwd);
+        //driver.findElement(password).sendKeys(pwd);
 
     }
 
