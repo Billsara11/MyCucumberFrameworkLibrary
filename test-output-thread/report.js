@@ -1,102 +1,135 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "93ef5535-9309-430d-a057-f224c432ee8b",
-    "feature": "Contact Us Feature",
-    "scenario": "Contact Us scenario with different set of data",
-    "start": 1645113746925,
-    "group": 12,
-    "content": "",
-    "tags": "",
-    "end": 1645113771718,
-    "className": "passed"
-  },
-  {
-    "id": "9da96223-fe83-42c3-b464-b34643e15c79",
-    "feature": "Contact Us Feature",
-    "scenario": "Contact Us scenario with different set of data",
-    "start": 1645113746923,
-    "group": 11,
-    "content": "",
-    "tags": "",
-    "end": 1645113772384,
-    "className": "passed"
-  },
-  {
-    "id": "9c70f308-f1db-406b-8803-ba86497b00a4",
-    "feature": "Contact Us Feature",
-    "scenario": "Contact Us scenario with different set of data",
-    "start": 1645113746924,
-    "group": 14,
-    "content": "",
-    "tags": "",
-    "end": 1645113763263,
-    "className": "failed"
-  },
-  {
-    "id": "3edf43a1-f5c2-43d9-b7bb-fa194601c19d",
+    "id": "35d8ff37-a708-4faa-b1c0-89f69e70a663",
     "feature": "Login Page Feature",
-    "scenario": "Login with correct credentials",
-    "start": 1645113746869,
-    "group": 18,
+    "scenario": "Login with uncorrected credentials",
+    "start": 1645477800094,
+    "group": 19,
     "content": "",
-    "tags": "@login,",
-    "end": 1645113775896,
-    "className": "passed"
+    "tags": "@login,@skip,@skip_scenario,",
+    "end": 1645477803959,
+    "className": "skipped"
   },
   {
-    "id": "a11aacc2-5572-4169-bbad-8e547f1baf1a",
-    "feature": "Login Page Feature",
-    "scenario": "User on the Login Page",
-    "start": 1645113746926,
-    "group": 17,
-    "content": "",
-    "tags": "@login,",
-    "end": 1645113761188,
-    "className": "passed"
-  },
-  {
-    "id": "b3608563-8820-4599-bb24-9c7dd7fb43e2",
-    "feature": "Contact Us Feature",
-    "scenario": "Contact Us scenario with different set of data",
-    "start": 1645113746924,
-    "group": 15,
-    "content": "",
-    "tags": "",
-    "end": 1645113773220,
-    "className": "passed"
-  },
-  {
-    "id": "9734d876-7f60-42ae-95ec-c21ebf4d55b4",
+    "id": "02666477-1d03-4a13-a286-28ee57f2be29",
     "feature": "Accounts Page Feature",
     "scenario": "Accounts page validation",
-    "start": 1645113746926,
+    "start": 1645477800142,
     "group": 10,
     "content": "",
     "tags": "",
-    "end": 1645113770587,
-    "className": "failed"
-  },
-  {
-    "id": "84fa732a-c623-44e3-9d79-48f3202f36e1",
-    "feature": "Contact Us Feature",
-    "scenario": "Contact Us scenario with different set of data",
-    "start": 1645113746915,
-    "group": 13,
-    "content": "",
-    "tags": "",
-    "end": 1645113771021,
+    "end": 1645477820784,
     "className": "passed"
   },
   {
-    "id": "4e406f65-f045-4375-bd86-52184c6118e5",
+    "id": "aa5c4783-4361-4aa3-8884-3f01776132eb",
     "feature": "Contact Us Feature",
     "scenario": "Contact Us scenario with different set of data",
-    "start": 1645113746921,
+    "start": 1645477800129,
+    "group": 12,
+    "content": "",
+    "tags": "",
+    "end": 1645477816705,
+    "className": "passed"
+  },
+  {
+    "id": "6d787bee-b773-4f80-a6ed-bedad005d6f9",
+    "feature": "Contact Us Feature",
+    "scenario": "Contact Us scenario with different set of data",
+    "start": 1645477800138,
+    "group": 13,
+    "content": "",
+    "tags": "",
+    "end": 1645477816815,
+    "className": "passed"
+  },
+  {
+    "id": "1434860b-6694-424a-ae68-b77690c42a8c",
+    "feature": "Contact Us Feature",
+    "scenario": "Contact Us scenario with different set of data",
+    "start": 1645477800137,
     "group": 16,
     "content": "",
     "tags": "",
-    "end": 1645113773532,
+    "end": 1645477817031,
+    "className": "passed"
+  },
+  {
+    "id": "e01fcec1-1ee0-40be-8dc6-f774637e74ec",
+    "feature": "Contact Us Feature",
+    "scenario": "Contact Us scenario with different set of data",
+    "start": 1645477800138,
+    "group": 15,
+    "content": "",
+    "tags": "",
+    "end": 1645477816815,
+    "className": "passed"
+  },
+  {
+    "id": "f9084d61-07ef-41df-b135-67c3a875b0c3",
+    "feature": "Order Page Feature",
+    "scenario": "Order history validation",
+    "start": 1645477811336,
+    "group": 17,
+    "content": "",
+    "tags": "",
+    "end": 1645477821995,
+    "className": "passed"
+  },
+  {
+    "id": "079f6524-5469-4d45-bcd3-fc7c93ddc6fd",
+    "feature": "Contact Us Feature",
+    "scenario": "Contact Us scenario with different set of data",
+    "start": 1645477800141,
+    "group": 11,
+    "content": "",
+    "tags": "",
+    "end": 1645477817330,
+    "className": "passed"
+  },
+  {
+    "id": "0cd0c432-7274-4f8d-94a8-dafbb43d6497",
+    "feature": "Contact Us Feature",
+    "scenario": "Contact Us scenario with different set of data",
+    "start": 1645477800133,
+    "group": 14,
+    "content": "",
+    "tags": "",
+    "end": 1645477811588,
+    "className": "failed"
+  },
+  {
+    "id": "51de657f-b135-426d-ac48-9a9ffe930d27",
+    "feature": "Order Page Feature",
+    "scenario": "user validate on the order history page",
+    "start": 1645477803966,
+    "group": 19,
+    "content": "",
+    "tags": "",
+    "end": 1645477820455,
+    "className": "passed"
+  },
+  {
+    "id": "4d898b31-721f-49a2-a7b5-aa86d219a4b7",
+    "feature": "Login Page Feature",
+    "scenario": "User on the Login Page",
+    "start": 1645477800141,
+    "group": 17,
+    "content": "",
+    "tags": "@login,",
+    "end": 1645477811329,
+    "className": "passed"
+  },
+  {
+    "id": "f5d1df39-b572-4fbc-a41c-eecc22fe0a91",
+    "feature": "Login Page Feature",
+    "scenario": "Login with correct credentials",
+    "start": 1645477800094,
+    "group": 18,
+    "content": "",
+    "tags": "@login,",
+    "end": 1645477811758,
     "className": "passed"
   }
 ]);
@@ -136,6 +169,10 @@ CucumberHTML.timelineGroups.pushArray([
   {
     "id": 18,
     "content": "Thread[TestNG-PoolService-8,5,main]"
+  },
+  {
+    "id": 19,
+    "content": "Thread[TestNG-PoolService-9,5,main]"
   }
 ]);
 });
