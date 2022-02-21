@@ -14,10 +14,13 @@ public class AccountPage {
     //By locators: OR(Object Repository)
     private By accountSection = By.xpath("//div[@class='col-xs-12 col-sm-6 col-lg-4']/ul/li");
 
+   private By orderHistoryButton = By.xpath("//span[contains(text(),'Order history and details')]");
+
     public AccountPage(WebDriver driver){
 
         this.driver=driver;
     }
+
 
    public String getAccountPageTitle(){
 
