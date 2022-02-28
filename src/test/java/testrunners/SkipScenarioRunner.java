@@ -13,7 +13,7 @@ import org.testng.annotations.DataProvider;
         },
         tags = "not @Skip", //we can add tags for ignore with not
         monochrome = true,
-        glue = { "parallel" },
+        glue = {"stepDefs"},
         features = { "src/test/resources/parallel" }
 )
 public class SkipScenarioRunner extends AbstractTestNGCucumberTests {

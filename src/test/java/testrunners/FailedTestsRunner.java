@@ -14,7 +14,7 @@ import org.testng.annotations.DataProvider;
                 "rerun:target/failedrerun.txt"
         },
         monochrome = true,
-        glue = { "parallel" },
+        glue = {"stepDefs"},
         features = { "@target/failedrerun.txt" }
 )
 
